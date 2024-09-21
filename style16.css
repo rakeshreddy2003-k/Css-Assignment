@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Pseudo-class :hover */
+.pseudo-hover:hover {
+    background-color: #34c759;
+    color: white;
+}
+
+/* Pseudo-class :focus */
+.pseudo-focus:focus {
+    outline: none;
+    background-color: #ff3b30;
+    color: white;
+}
+
+/* Pseudo-class :nth-child */
+.nth-child-demo:nth-child(2) {
+    color: #ff9500;
+}
+
+/* Pseudo-element ::before */
+.pseudo-element::before {
+    content: 'Start - ';
+    color: #007aff;
+}
+
+/* Pseudo-element ::after */
+.pseudo-element::after {
+    content: ' - End';
+    color: #34c759;
+}

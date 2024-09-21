@@ -1,0 +1,41 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section with text color */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Solid background color */
+.solid-bg {
+    background-color: #f0c420;
+    color: #333;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Gradient background */
+.gradient-bg {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Background image */
+.image-bg {
+    background-image: url('background.jpg'); /* Add your image path */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}

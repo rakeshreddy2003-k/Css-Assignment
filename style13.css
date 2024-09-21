@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    line-height: 200px;
+    font-size: 16px;
+    color: white;
+    background-color: #007aff;
+    transition: all 0.3s ease; /* Default transition for all properties */
+}
+
+/* Color Transition */
+.color-transition:hover {
+    background-color: #34c759;
+}
+
+/* Size Transition */
+.size-transition:hover {
+    width: 300px;
+    height: 300px;
+}
+
+/* Delayed Transition */
+.delay-transition {
+    transition: background-color 1s ease-in-out, width 2s ease-out 1s;
+}
+
+.delay-transition:hover {
+    background-color: #ff3b30;
+    width: 300px;
+}

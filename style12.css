@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Box styling */
+.box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: #ff3b30;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+.box2 {
+    background-color: #34c759;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+
+.box3 {
+    background-color: #007aff;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+}

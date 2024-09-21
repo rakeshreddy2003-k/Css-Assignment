@@ -1,0 +1,46 @@
+/* Element selector */
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+/* Class selector */
+.sub-heading {
+    color: green;
+    font-style: italic;
+}
+
+.item {
+    color: red;
+    font-size: 14px;
+}
+
+/* ID selector */
+#main-heading {
+    font-size: 24px;
+    text-align: center;
+    color: darkblue;
+}
+
+#special-btn {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Attribute selector */
+a[href] {
+    color: purple;
+    text-decoration: none;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: orange;
+}
+
+/* Pseudo-element selector */
+p::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}

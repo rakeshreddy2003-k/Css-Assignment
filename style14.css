@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    line-height: 200px;
+    font-size: 16px;
+    color: white;
+    background-color: #007aff;
+}
+
+/* Keyframes for rotating animation */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Keyframes for bouncing animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+}
+
+/* Rotating Animation */
+.rotate-animation {
+    animation: rotate 3s linear infinite;
+}
+
+/* Bouncing Animation */
+.bounce-animation {
+    animation: bounce 2s ease-in-out infinite;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+    <h1>Responsive Images Example</h1>
+    
+    <div class="image-container">
+        <img srcset="images/small.jfif 500w,
+                     images/medium.jfif 1000w,
+                     images/large.jfif 1500w"
+             sizes="(max-width: 600px) 100vw, 
+                    (max-width: 1200px) 50vw, 
+                    33vw"
+                    src="images/large.jfif"
+             alt="Responsive Example Image">
+    </div>
+</body>
+</html>

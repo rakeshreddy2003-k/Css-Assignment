@@ -1,0 +1,53 @@
+/* Grid System */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Card Component */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #007aff;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.mb-5 {
+    margin-bottom: 50px;
+}
+
+.p-5 {
+    padding: 50px;
+}

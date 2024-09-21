@@ -1,0 +1,44 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Outer grid */
+.outer-grid {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+        "header header"
+        "menu main"
+        "sidebar footer";
+    padding: 10px;
+}
+
+.item1 { grid-area: header; background-color: #333; color: white; }
+.item2 { grid-area: menu; background-color: #ccc; }
+.item3 { grid-area: main; background-color: #f0f0f0; }
+.item4 { grid-area: sidebar; background-color: #ddd; }
+.item5 { grid-area: footer; background-color: #333; color: white; }
+
+/* Nested grid */
+.nested-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.nested1, .nested2 {
+    background-color: #888;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}

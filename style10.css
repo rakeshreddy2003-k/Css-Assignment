@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}

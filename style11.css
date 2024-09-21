@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 2000px; /* for scroll demo */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Static Position (default) */
+.static {
+    position: static;
+    background-color: #f8b400;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Relative Position */
+.relative {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: #34c759;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Absolute Position */
+.absolute {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: #ff2d55;
+    padding: 20px;
+}
+
+/* Fixed Position */
+.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #007aff;
+    padding: 20px;
+    color: white;
+}
+
+/* Sticky Position */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #5856d6;
+    padding: 20px;
+    color: white;
+}

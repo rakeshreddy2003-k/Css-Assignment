@@ -1,0 +1,89 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Font family styles */
+.serif-font {
+    font-family: 'Georgia', serif;
+    padding: 20px;
+}
+
+.sans-serif-font {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+/* Font weight variations */
+.font-weights {
+    padding: 20px;
+}
+
+.light-weight {
+    font-weight: 300;
+}
+
+.normal-weight {
+    font-weight: 400;
+}
+
+.bold-weight {
+    font-weight: 700;
+}
+
+/* Font style variations */
+.font-styles {
+    padding: 20px;
+}
+
+.italic-style {
+    font-style: italic;
+}
+
+.normal-style {
+    font-style: normal;
+}
+
+/* Text transform */
+.text-transform {
+    padding: 20px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* Line height variations */
+.line-height {
+    padding: 20px;
+}
+
+.tight-line {
+    line-height: 1.2;
+}
+
+.normal-line {
+    line-height: 1.6;
+}
+
+.loose-line {
+    line-height: 2.0;
+}
